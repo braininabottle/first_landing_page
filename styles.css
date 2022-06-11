@@ -1,3 +1,4 @@
+/* Estilos jumnbotron */
 .circulodefoertas{
  background-color: black;
  display: inline-block;
@@ -42,6 +43,8 @@
   height: 1000px;
 }
 
+/* Estilos para fila de barritas */
+
 .titulodeproducto{
     justify-content:center;
 }
@@ -51,18 +54,32 @@
     margin-right: 25px;
     margin-bottom: 25px;
     margin-left: 25px;
+    border-radius: 20px;
+    border: solid 1px black;
+    box-shadow: 5px 5px 5px black;
 }
 
 .imagenbarritas {
     width:100%;
     height: 300px;
+
 }
+
+.parrafobarritas{
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* Estilo para fila de suplementos */
 
 .filasuplementos{
     margin-top: 25px;
     margin-right: 25px;
     margin-bottom: 25px;
     margin-left: 25px;
+    border-radius: 20px;
+    border: solid 1px black;
+    box-shadow: 5px 5px 5px black;
 }
 
 .imagensuplementos{
@@ -70,15 +87,31 @@
     height: 300px;
 }
 
+.parrafosuplementos{
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* Estilo para fila de mieles */
+
 .filamieles{
     margin-top: 25px;
     margin-right: 25px;
     margin-bottom: 25px;
     margin-left: 25px;
+    border-radius: 20px;
+    border: solid 1px black;
+    box-shadow: 5px 5px 5px black;
+
 }
 
 .imagenmieles{  
     width: 100%;
     height: 300px;
+}
+
+.parrafomieles{
+    font-size: 20px;
+    font-style: italic;
 }
 
