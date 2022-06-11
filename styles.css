@@ -42,37 +42,43 @@
   height: 1000px;
 }
 
+.titulodeproducto{
+    justify-content:center;
+}
+
 .filabarritas{
-    margin-top: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    margin-left: 50px;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
 }
 
 .imagenbarritas {
-    width:100%
+    width:100%;
+    height: 300px;
 }
 
 .filasuplementos{
-    margin-top: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    margin-left: 50px;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
 }
 
 .imagensuplementos{
-    width: 300px;
+    width:100%;
     height: 300px;
-
 }
 
 .filamieles{
-    margin-top: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    margin-left: 50px;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
 }
 
-.imagenmieles{
-    width: 400px;
+.imagenmieles{  
+    width: 100%;
+    height: 300px;
 }
+
