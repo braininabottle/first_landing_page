@@ -8,6 +8,7 @@
  border-radius: 30px;
  font-size: 20px;
  padding: 20px;
+ font-weight:bold;
 }
 
 .titulocajapresentacion {
@@ -36,11 +37,12 @@
     border-radius: 50px;
     font-size: 20px;
     margin-left: 5px;
+    font-weight:bold;
 }   
 
-.imagenprincipal{
-  width: 1000px;
-  height: 1000px;
+.imagenjumbotron{
+  width: 800px;
+  height: 800px;
 }
 
 /* Estilos para fila de barritas */
@@ -115,3 +117,32 @@
     font-style: italic;
 }
 
+/* Estilos sección visita nuestras instalaciones */
+
+.cajaimagenvisitafabrica{
+     width: 770px;
+     height: 650px;
+}
+
+.titulovisitafabrica{
+   margin-top: 25px;
+    margin-left: 25px;
+
+}   
+
+.parrafovisitafabrica{
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.circuloganauntourgratis{
+    background-color: black;
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 20px;
+    font-weight:bold;
+}
