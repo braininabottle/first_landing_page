@@ -174,12 +174,6 @@
     font-style: italic;
 }
 
-/* Estilos de Log in page */
-
-body{
-    background: black;
-    font-family: sans-serif;
-}
 
 .login-box{
     width: 350px;
@@ -204,4 +198,6 @@ body{
     font-size: 15px;
     margin-left: 10px;
     font-weight:bold;
-}
+} 
+
+
