@@ -1,22 +1,23 @@
 /* Estilos navbar */
 
 /* Estilos jumnbotron */
-.circulodefoertas{
- background-color: black;
- display: inline-block;
- margin-top: 30px;
- margin-bottom: 30px;
- margin-left: 20px;
- border-radius: 30px;
- font-size: 20px;
- padding: 20px;
- font-weight:bold;
+.circulodefoertas {
+    background-color: black;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+
 }
 
 .titulocajapresentacion {
     font-size: 50px;
     margin-left: 20px;
-    
+
 }
 
 .parrafocajapresentacion {
@@ -25,12 +26,12 @@
     margin-left: 20px;
 }
 
-.parrafotyc{
+.parrafotyc {
     margin-top: 20px;
     margin-left: 20px;
 }
 
-.botonenviar{
+.botonenviar {
     box-sizing: border-box;
     border-style: outset;
     background-color: black;
@@ -38,22 +39,22 @@
     padding: 0px 50px 0px 50px;
     border-radius: 50px;
     font-size: 20px;
+    margin-top: 20px;
     margin-left: 5px;
-    font-weight:bold;
-}   
+}
 
-.imagenjumbotron{
-  width:100%;
-  height: 100%;
+.imagenjumbotron {
+    width: 930px;
+    height: 800px;
 }
 
 /* Estilos para fila de barritas */
 
-.titulodeproducto{
-    justify-content:center;
+.titulodeproducto {
+    justify-content: center;
 }
 
-.filabarritas{
+.filabarritas {
     margin-top: 25px;
     margin-right: 25px;
     margin-bottom: 100px;
@@ -64,19 +65,19 @@
 }
 
 .imagenbarritas {
-    width:100%;
+    width: 100%;
     height: 300px;
 
 }
 
-.parrafobarritas{
+.parrafobarritas {
     font-size: 20px;
     font-style: italic;
 }
 
 /* Estilo para fila de suplementos */
 
-.filasuplementos{
+.filasuplementos {
     margin-top: 25px;
     margin-right: 25px;
     margin-bottom: 100px;
@@ -86,12 +87,12 @@
     box-shadow: 5px 5px 5px black;
 }
 
-.imagensuplementos{
-    width:100%;
+.imagensuplementos {
+    width: 100%;
     height: 300px;
 }
 
-.parrafosuplementos{
+.parrafosuplementos {
     font-size: 20px;
     font-style: italic;
 }
@@ -102,7 +103,7 @@
     margin-left: 25px;
 }
 
-.filamieles{
+.filamieles {
     margin-top: 25px;
     margin-right: 25px;
     margin-bottom: 100px;
@@ -113,72 +114,72 @@
 
 }
 
-.imagenmieles{  
+.imagenmieles {
     width: 100%;
     height: 300px;
 }
 
-.parrafomieles{
+.parrafomieles {
     font-size: 20px;
     font-style: italic;
 }
 
 /* Estilos sección visita nuestras instalaciones */
 
-.cajaimagenvisitafabrica{
-     width: 100px;
-     height: 100px;
+.imagenvisitafabrica {
+    width: 950px;
+    height: 800px;
 }
 
-.titulovisitafabrica{
-   margin-top: 25px;
+.titulovisitafabrica {
+    margin-top: 25px;
     margin-left: 25px;
+}
 
-}   
-
-.parrafovisitafabrica{
+.parrafovisitafabrica {
     margin-left: 25px;
     font-size: 20px;
 }
 
-.circuloganauntourgratis{
+.circuloganauntourgratis {
     background-color: black;
     display: inline-block;
     margin-top: 100px;
     margin-bottom: 30px;
     margin-left: 20px;
     border-radius: 30px;
-    font-size: 20px;
-    padding: 20px;
-    font-weight:bold;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
 }
 
 /* Sección del footer */
 
-.titulorss{
+.titulorss {
     margin-bottom: 25px;
     font-size: 20px;
 }
 
-.parrafofacebook{
+.parrafofacebook {
     margin-top: 5px;
     font-style: italic;
 }
 
-.parrafotwitter{
+.parrafotwitter {
     margin-top: 5px;
     font-style: italic;
 }
-.parrafoinstagram{
+
+.parrafoinstagram {
     margin-top: 5px;
     font-style: italic;
 }
 
 
-.login-box{
+.login-box {
     width: 350px;
     height: 450px;
-    background:white;
+    background: white;
     top: 50%;
     left: 50%;
     position: absolute;
@@ -188,7 +189,7 @@
     border-radius: 15px;
 }
 
-.botoningresar{
+.botoningresar {
     box-sizing: border-box;
     border-style: outset;
     background-color: black;
@@ -197,7 +198,5 @@
     border-radius: 50px;
     font-size: 15px;
     margin-left: 10px;
-    font-weight:bold;
-} 
-
-
+    font-weight: bold;
+}
