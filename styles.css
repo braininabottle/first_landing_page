@@ -201,3 +201,40 @@
     margin-left: 10px;
     font-weight: bold;
 }
+
+/*
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+*/
+
+.imagenesdecolumnas {
+    width:100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#bars{
+    background-image: url(Images/imagen3.jpg);
+}
+
+#suplement{
+    background-image: url(Images/suplement.jpg);
+}
+
+#honeys{
+    background-image: url(Images/mieles.jpg);
+}
+
+#healthy-image{
+    background-image: url(Images/imagen2.jpg);
+    height: 100%;
+}
+
+#visitusimage {
+    background-image: url(Images/visitanuestrafabrica.jpg);
+    height: 100%;
+}

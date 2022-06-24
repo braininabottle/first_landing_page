@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel=styleSheet href="styles.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 </head>
 
 <body>
@@ -46,7 +46,7 @@
             </div>
         </div>
     </nav>
-    <main>
+    <main class="container-fluid">
         <!-- Sección jumbotron -->
         <div class="cajadepresentacion row">
             <div class="cajadeofertas bg-light col-xl-6 col-lg-6 col-md-6 col-sm-12">
@@ -81,8 +81,8 @@
             </div>
             <!-- Inagen de fondo para la presentación del jumbotron -->
             <div class="cajadeimagen overflow-hidden bg-light col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                <div>
-                    <img src="Images/saludable.jpg" class="img-fluid"/>
+                <div id="healthy-image" class="imagenesdecolumnas">
+                 <!-- <img src="Images/saludable.jpg" class="img-fluid"/> -->
                 </div>
             </div>
         </div>
@@ -96,17 +96,21 @@
         <div class="secciontipoproductos row d-flex overflow-hidden justify-content-center inline bg-dark">
             <div class="filabarritas text-center overflow-hidden col-xl-3 col-lg-12 col-md-6 col-sm-12 bg-secondary p-5">
                 <h1 class="titulobarritas text-white text-center align-items-center pb-5">Barritas orgánicas</h1>
-                <img src="Images/imagen3.jpg" class="img-fluid"/>
+                <div id="bars" class="imagenesdecolumnas">
+
+                </div>
                 <p class="parrafobarritas text-white text-center pt-5">Deliciosas barras de cereal elaboradas con
                     ingredientes naturales sin azúcar
                     refinada, siendo endulzada solamente con los azúcares naturales de la miel y de cada fruto.
                     Tampoco contiene aditivos ni preservantes.</p>
             </div>
             <div class="filasuplementos text-center verflow-hidden col-xl-3 col-lg-12 col-md-6 col-sm-12 bg-secondary p-5">
-                <h1 class="titulosuplementos text-white align-items-center text-center pb-2">Suplementos
+                <h1 class="titulosuplementos text-white align-items-center text-center pb-3">Suplementos
                     orgánicos</h1>
-                <img src="Images/suplement.jpg" class="img-fluid"/>
-                <p class="parrafosuplementos text-white text-center pt-5">Los suplementos alimenticios son alimentos
+                    <div id="suplement" class="imagenesdecolumnas">
+
+                    </div>
+                    <p class="parrafosuplementos text-white text-center pt-5">Los suplementos alimenticios son alimentos
                     altamente nutritivos, llenos de
                     propiedades sanadoras, de origen orgánico y silvestre los alimentos que les ofrecemos hacen bien a
                     las personas , a nuestro medio ambiente y permite que todos vivamos mas saludable y armoniosamente.
@@ -114,7 +118,9 @@
             </div>
             <div class="filamieles text-center overflow-hidden col-xl-3 col-lg-12 col-md-6 col-sm-12 bg-secondary p-5">
                 <h1 class="titulomieles text-white align-items-center text-center ml-5 pb-5">Mieles orgánicas</h1>
-                <img src="Images/mieles.jpg" class="img-fluid" />
+                <div id="honeys" class="imagenesdecolumnas">
+
+                </div>
                 <p class="parrafomieles text-white text-center pt-5">Disfruta de nuestra exquisita Miel Premium Batida y
                     las mieles saborizadas con
                     nuestros polvos premium sin semilla que te entregarán el poder de la miel junto a los beneficios de
@@ -123,11 +129,11 @@
         </div>
     </div>
     <!-- Sección visita nuestras instalaciones -->
-    <div>
+    <div class="container-fluid">
         <div class="visitanuestrafabrica row">
             <div class="cajaimagen2 overflow-hidden col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                <div class="imagentour">
-                    <img  src="Images/visitanuestrafabrica.jpg" class="img-fluid"/>
+                <div id=visitusimage class="imagenesdecolumnas">
+                    <!-- <img  src="Images/visitanuestrafabrica.jpg" class="img-fluid"/> -->
                 </div>
             </div>
             <div class="cajavisitanuestrafabrica bg-light col-xl-6 col-lg-6 col-md-6 col-sm-12">
@@ -152,9 +158,9 @@
         </div>
     </div>
     <!-- Sección del footer -->
-    <footer class="bg-dark text-center text-white">
+    <footer class="container-fluid bg-dark text-center text-white">
 
-        <div class="container p-4 pb-0">
+        <div class="container-fluid p-4 pb-0">
 
             <section class="mb-4">
 
